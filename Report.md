@@ -25,23 +25,25 @@ Principles:
 1. Each variable forms a column.
 2. Each observation forms a row.
 3. Each type of observational unit forms a table.
+
 **Key goal** - each row represents an observation.
+
 **Useful function** - pd.melt().
 
 ### Data Transformations
 Transformation methods:
-    - **Z-score**
-    - **minmax**
-    - ***log, log + 1, sqrt, $x^2$, $x^3$***
-    - **Box - Cox**
+- **Z-score**
+- **minmax**
+- ***log, log + 1, sqrt, $x^2$, $x^3$***
+- **Box - Cox**
 
 ### Data Categorization
 Ways of binning:
-    - **Quantile Binning** - using *pd.qcut(data, q=4)* - 4 quantile-based bins
-    - **Equal - Width Binning**
-    - **Pretty Binning** - using *pd.qcut(data, bins=5)* - 5 equal-width bins
-    - **K-Means Binning** - K-Means clustering algorithm
-    - **Bag Clustering** 
+- **Quantile Binning** - using *pd.qcut(data, q=4)* - 4 quantile-based bins
+- **Equal - Width Binning**
+- **Pretty Binning** - using *pd.qcut(data, bins=5)* - 5 equal-width bins
+- **K-Means Binning** - K-Means clustering algorithm
+- **Bag Clustering** 
 
 ## Data Cleansing Summary
 [Click here for the Data Cleansing](Cleaning_Data_in_Python_live_session.ipynb)
