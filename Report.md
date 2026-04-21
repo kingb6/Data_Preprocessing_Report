@@ -34,7 +34,6 @@ Principles:
 Transformation methods:
 - **Z-score**
 - **minmax**
-- ***log, log + 1, sqrt, $x^2$, $x^3$***
 - **Box - Cox**
 
 ### Data Categorization
